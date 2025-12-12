@@ -1,114 +1,60 @@
 # brawl-stars-controls-and-weapons-demo
-This repo showcases my Unity mobile controls and modular weapon system with real-time previews.
+This repository contains a compact but real gameplay system extracted from a larger Unity project.
+
+It is designed as a **code showcase**, not a full playable game, and focuses on demonstrating clean architecture, modular gameplay systems, and practical Unity C# patterns for hiring managers and technical reviewers.
 
 https://github.com/user-attachments/assets/04c4f91c-6d5d-4510-be4c-754fc70adf8e
+🎮 What This Repo Demonstrates
 
-This repository contains a compact but real gameplay system extracted from my larger Unity project.
-It demonstrates:
+Player Input & Movement
 
-Mobile joystick controls
-
-A modular weapon system (melee, ranged, directional previews)
-
-UI interactions for weapon selection
-
-Basic animation hooks
-
-Player movement logic
-
-Core gameplay utilities (health, camera follow, billboarding, etc.)
-
-The goal of this repo is not to provide a full runnable game, but to showcase the clarity, structure, and modularity of my Unity C# code for hiring managers and technical reviewers.
-
-⭐ What This Repo Demonstrates
-🎮 1. Player Input & Movement
-
-Scripts like PlayerMovement, FloatingJoystick, JoystickFunction provide:
-
-Mobile-style movement controls
+Mobile joystick-based movement
 
 Input abstraction
 
-Smooth directional control
+Clear separation between input, movement, and animation
 
-Clear separation between input → movement → animation
+Modular Weapon System
 
-🔫 2. Modular Weapon System
+Melee and ranged weapon handling
 
-This mini-repo includes several weapon-related scripts:
+Directional attack previews (line & mesh-based)
 
-WeaponButton
-WeaponWheelController
-GripPoint
-WeaponManager
-MeleeArcVisualizer
-LinePreview
-PreviewMesh
-These show:
+Weapon selection via UI
 
-How weapons are selected and activated
+Extensible structure for adding new weapon types
 
-How melee arcs and ranged previews are calculated
+UI Interaction
 
-How weapon UI communicates with gameplay code
+Button-driven gameplay interactions
 
-How extension points are created for new weapon types
+Weapon selection feedback
 
-Weapon previews are generated using both line and mesh-based approaches, demonstrating practical gameplay math and visualization logic.
+Health bar updates linked to player state
 
-🎨 3. UI Interaction and Feedback
+Event-based UI updates
 
-Scripts such as:
-
-InventoryButton
-WeaponButton
-SelectedWeaponImage
-SelectedWeaponText
-ButtonSFX
-HealthBarUI
-These show:
-
-Button-driven interactions
-
-Updating UI elements based on gameplay events
-
-Displaying selected weapons
-
-UI-based player feedback
-
-Health bar updates linked to player health
-
-🎥 4. Camera & Visual Helpers
-
-Includes:
+Camera & Visual Helpers
 
 Smooth camera follow
 
-3D objects always facing the camera (billboarding)
+Billboarding for 3D elements
 
-Simple outline/emphasis system
+Simple emphasis / outline helpers
 
-🩹 5. Animation Bridges
+Animation Integration
 
-Scripts like:
+Animation events bridged to gameplay code
 
-AnimationManager
-AnimationEventBridge
+Animator parameter control via gameplay states
 
-Show how I connect:
-
-Animation events → code
-
-Gameplay states → animator parameters
-
-Runtime weapon controls → animation layers
+Weapon actions connected to animation layers
 
 🧠 Code Structure
 
-Scripts are categorized into logical folders:
+Scripts are organized into clear, responsibility-based folders:
 
 Scripts/
-│
 ├── Player
 ├── Weapons
 ├── UI
@@ -118,29 +64,41 @@ Scripts/
 └── Misc
 
 
-This reflects the architecture used in my complete project:
-decoupled systems communicating through events, clean responsibilities, and modular gameplay components.
+This mirrors the architecture used in my full project:
+decoupled systems, event-based communication, and modular gameplay components.
 
 📝 Why This Repo Exists
 
-This repository is part of a series of showcase mini-repos, each focused on a specific gameplay system.
-It helps hiring managers quickly inspect:
+This repository is part of a series of small, focused gameplay demos, each highlighting a specific system.
 
-My coding style
+It allows reviewers to quickly evaluate:
 
-My architecture decisions
+Coding style and structure
 
-My ability to build modular gameplay systems
+Gameplay architecture decisions
 
-My experience with Unity UI, input, weapons, math, and animations
+Practical Unity problem-solving
 
-No setup is required to explore the code.
+Experience with mobile input, UI, weapons, math, and animations
 
-🛠️ Technologies Used
+No setup is required — the code is intended for inspection, not execution.
+
+🛠 Technical Info
+
+Unity Version: 2022.3.x
+
+Platform: Mobile
+
+Technologies:
 
 Unity C#
-UI Toolkit / UGUI
-ScriptableObjects (in main project)
-Mobile control design
-Gameplay math (angles, previews, direction vectors)
+
+UGUI
+
+Event-driven architecture
+
+Gameplay math (angles, vectors, previews)
+
 Animation event bridging
+
+🎥 Demo videos are included for visual reference.
