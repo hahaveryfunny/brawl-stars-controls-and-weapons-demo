@@ -1,6 +1,8 @@
 # brawl-stars-controls-and-weapons-demo
 Brawl-Stars Style Controls & Modular Weapon System (Unity C# Showcase)
 
+https://github.com/user-attachments/assets/04c4f91c-6d5d-4510-be4c-754fc70adf8e
+
 This repository contains a compact but real gameplay system extracted from my larger Unity project.
 It demonstrates:
 
