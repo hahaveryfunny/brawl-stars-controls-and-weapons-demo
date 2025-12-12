@@ -50,6 +50,7 @@ Scripts/
 ├── Camera
 ├── Core
 └── Misc
+
 This mirrors the architecture used in my full project:
 decoupled systems, event-based communication, and modular gameplay components.
 
