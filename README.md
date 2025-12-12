@@ -1,5 +1,5 @@
 # brawl-stars-controls-and-weapons-demo
-Brawl-Stars Style Controls & Modular Weapon System (Unity C# Showcase)
+This repo showcases my Unity mobile controls and modular weapon system with real-time previews.
 
 https://github.com/user-attachments/assets/04c4f91c-6d5d-4510-be4c-754fc70adf8e
 
@@ -38,19 +38,12 @@ Clear separation between input → movement → animation
 This mini-repo includes several weapon-related scripts:
 
 WeaponButton
-
 WeaponWheelController
-
 GripPoint
-
 WeaponManager
-
 MeleeArcVisualizer
-
 LinePreview
-
 PreviewMesh
-
 These show:
 
 How weapons are selected and activated
@@ -68,17 +61,11 @@ Weapon previews are generated using both line and mesh-based approaches, demonst
 Scripts such as:
 
 InventoryButton
-
 WeaponButton
-
 SelectedWeaponImage
-
 SelectedWeaponText
-
 ButtonSFX
-
 HealthBarUI
-
 These show:
 
 Button-driven interactions
@@ -106,7 +93,6 @@ Simple outline/emphasis system
 Scripts like:
 
 AnimationManager
-
 AnimationEventBridge
 
 Show how I connect:
@@ -116,7 +102,6 @@ Animation events → code
 Gameplay states → animator parameters
 
 Runtime weapon controls → animation layers
-
 
 🧠 Code Structure
 
@@ -136,18 +121,6 @@ Scripts/
 This reflects the architecture used in my complete project:
 decoupled systems communicating through events, clean responsibilities, and modular gameplay components.
 
-For example:
-
-Joystick movement
-
-Weapon wheel selection
-
-Melee arc preview
-
-Ranged line preview
-
-A 3–6 second silent GIF is enough.
-
 📝 Why This Repo Exists
 
 This repository is part of a series of showcase mini-repos, each focused on a specific gameplay system.
@@ -166,13 +139,8 @@ No setup is required to explore the code.
 🛠️ Technologies Used
 
 Unity C#
-
 UI Toolkit / UGUI
-
 ScriptableObjects (in main project)
-
 Mobile control design
-
 Gameplay math (angles, previews, direction vectors)
-
 Animation event bridging
