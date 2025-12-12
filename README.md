@@ -95,16 +95,6 @@ Health bar updates linked to player health
 
 Includes:
 
-CameraManager
-
-FollowCamera
-
-Billboard
-
-Outline
-
-These demonstrate:
-
 Smooth camera follow
 
 3D objects always facing the camera (billboarding)
@@ -127,15 +117,6 @@ Gameplay states → animator parameters
 
 Runtime weapon controls → animation layers
 
-❤️ 6. Core Gameplay Systems
-
-Health
-
-Settings
-
-Utility scripts
-
-These provide foundational logic used by gameplay and UI.
 
 🧠 Code Structure
 
@@ -154,13 +135,6 @@ Scripts/
 
 This reflects the architecture used in my complete project:
 decoupled systems communicating through events, clean responsibilities, and modular gameplay components.
-
-📸 Preview
-
-Place your GIF here:
-
-Documentation/preview.gif
-
 
 For example:
 
