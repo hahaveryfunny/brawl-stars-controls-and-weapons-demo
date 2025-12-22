@@ -4,7 +4,7 @@ This repository contains a compact but real gameplay system extracted from a lar
 
 It is designed as a **code showcase**, not a full playable game, and focuses on demonstrating clean architecture, modular gameplay systems, and practical Unity C# patterns for hiring managers and technical reviewers.
 
-https://github.com/user-attachments/assets/04c4f91c-6d5d-4510-be4c-754fc70adf8e
+![Image](https://github.com/user-attachments/assets/eb94e900-e13d-4a27-8b9b-26d92e2e9049)
 
 ---
 
